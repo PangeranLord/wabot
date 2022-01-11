@@ -4,9 +4,9 @@ global.tum = fs.readFileSync('./src/Ah5.jpeg')
 global.tum2 = fs.readFileSync('./src/emror.jpeg')
 global.thumb = fs.readFileSync('./src/thumb.jpeg')
 global.thumb2 = fs.readFileSync('./src/emror.jpeg')
-global.owner = ['6287832147584', '6287832147584',] // Put your number here
+global.owner = ['6287832147584', '6285719579904'] // Put your number here
 global.mods = ['6287832147584'] // Want some help?
-global.prems = ['6287832147584'] // Premium user has unlimited limit
+global.prems = ['6287832147584', '6285719579904'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
