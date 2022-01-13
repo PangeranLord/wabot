@@ -31,7 +31,7 @@ module.exports = {
           if (!isNumber(user.exp)) user.exp = 0
           if (!isNumber(user.limit)) user.limit = 10
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
-          if (!('registered' in user)) user.registered = true
+          if (!('registered' in user)) user.registered = false
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
             if (!isNumber(user.age)) user.age = -1
@@ -80,7 +80,7 @@ module.exports = {
           sPromote: '',
           sDemote: '',
           delete: true,
-          antiLink: false,
+          antiLink: true,
         }
       } catch (e) {
         console.error(e)
