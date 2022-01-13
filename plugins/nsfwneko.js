@@ -8,6 +8,8 @@ await conn.sendFile(m.chat, img, '', '', m)
 }
 handler.help = ['nsfw neko']
 handler.tags = ['anime']
+handler.premium = true
+handler.limit = true
 
 handler.command = /^(nsfwneko)$/i
 
