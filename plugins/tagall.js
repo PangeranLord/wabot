@@ -9,5 +9,6 @@ handler.tags = ['admin']
 
 handler.admin = true
 handler.group = true
+handler.limit = true
 
 module.exports = handler
