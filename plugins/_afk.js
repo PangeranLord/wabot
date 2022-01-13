@@ -18,7 +18,7 @@ Selama ${clockString(new Date - user.afk)}
     let reason = user.afkReason || ''
     m.reply(`
 Jangan tag dia!
-Dia sedang Meninggal. ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
+Dia sedang Meninggal ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
 Selama ${clockString(new Date - afkTime)}
 `.trim())
   }
