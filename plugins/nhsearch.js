@@ -17,5 +17,6 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 }
 handler.help = ['nhentaisearch (judul)']
 handler.tags = ['dewasa']
+handler.limit = true
 handler.command = /^nh?(search|entaisearch)$/i
 module.exports = handler
