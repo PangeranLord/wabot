@@ -8,7 +8,7 @@ handler.tags = ['dewasa']
 handler.command = /^(filebokep)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = false
 handler.private = false
 
