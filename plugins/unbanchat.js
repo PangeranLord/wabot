@@ -3,8 +3,8 @@ let handler = async (m, { conn }) => {
   m.reply('Done!')
 }
 handler.help = ['unbanchat']
-handler.tags = ['owner']
+handler.tags = ['owner','admin']
 handler.command = /^unbanchat$/i
-handler.owner,handler.mods,handler.group = true
+handler.owner,handler.mods,handler.group,handler.admin = true
 
 module.exports = handler
