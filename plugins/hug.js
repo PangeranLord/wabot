@@ -24,5 +24,7 @@ let handler = async (m, { conn, command }) => {
 handler.help = ["hug", "pat", "wink"]
 handler.tags = ["fun"]
 handler.command = /^(hug|pat|wink)$/i
+handler.premium = true
+handler.limit = true
 
 module.exports = handler
