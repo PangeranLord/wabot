@@ -14,5 +14,7 @@ ${text}
 handler.help = ['pinterest <keyword>']
 handler.tags = ['internet']
 handler.command = /^(pinterest)$/i
+handler.premium = true
+handler.limit = true
 
 module.exports = handler
