@@ -69,5 +69,7 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['nhentaipdf <code>']
 handler.tags = ['dewasa']
 handler.command = /^nh(pdf|entaipdf)$/i
+handler.premium = true
+handler.limit = true
 
 module.exports = handler
