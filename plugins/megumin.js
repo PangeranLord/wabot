@@ -9,5 +9,7 @@ let handler = async(m, { conn }) => {
 handler.help = ['megumin']
 handler.tags = ['anime']
 handler.command = /^(megumin)$/i
+handler.premium = true
+handler.limit = true
 //ftwrr
 module.exports = handler
