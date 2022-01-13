@@ -18,6 +18,7 @@ handler.tags = ["fun"];
 
 handler.command = /^(nsfwwaifu|waifunsfw)$/i;
 
+handler.premium = true;
 handler.limit = true;
 
 module.exports = handler;
