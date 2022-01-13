@@ -5,9 +5,9 @@ let handler = async (m, { conn, text, participants }) => {
   })
 }
 handler.command = ['tagall']
+handler.tags = ['admin']
 
 handler.admin = true
 handler.group = true
-handler.owner = true
 
 module.exports = handler
