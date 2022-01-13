@@ -8,6 +8,8 @@ await conn.sendFile(m.chat, img, '', '', m)
 }
 handler.help = ['uniform']
 handler.tags = ['anime']
+handler.premium = true
+handler.limit = true
 
 handler.command = /^(uniform)$/i
 
