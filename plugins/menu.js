@@ -47,9 +47,9 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Script :
-│ https://github.com/LitRHap/wabot
+│ Mau Script? Follow Instagram Ownerku Dulu👇
 │ Instagram :
-│ https://instagram.com/alif._.t
+│ https://www.instagram.com/abengrndna_
 │ Server :
 │ https://uptimerobot.com
 ╰────
