@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, participants }) => {
     contextInfo: { mentionedJid: users }
   })
 }
-handler.help = ['tagall','-'].map(v => 'o' + v )
+handler.help = ['tagall','r'].map(v => 'o' + v + '[text]')
 handler.tags = ['owner']
 handler.command = /^(otagall|o\-)$/i
 
