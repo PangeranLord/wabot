@@ -52,6 +52,10 @@ const defaultMenu = {
 │ https://www.instagram.com/abengrndna_
 │ Server :
 │ https://uptimerobot.com
+│ Group Pangeran 1 :
+│ https://chat.whatsapp.com/DnLnQ8gMPNB0KaEGb1yHC6
+│ Group Pangeran 2 :
+│
 ╰────
 %readmore`.trimStart(),
   header: '┏┉┄┈┈┈『%category』┈┈┈┈┈┉┓',
