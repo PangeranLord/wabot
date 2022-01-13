@@ -43,5 +43,7 @@ let handler = async (m, { text }) => {
 handler.help = ['artinama'].map(v => v + ' [nama]')
 handler.tags = ['kerang']
 handler.command = ['artinama']
+handler.premium = true
+handler.limit = true
 
 module.exports = handler
