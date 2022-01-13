@@ -6,6 +6,7 @@ let handler = async (m, { conn, text, participants }) => {
 }
 handler.command = ['tagall']
 handler.tags = ['owner']
+handler.command = /^(otagall|o\-)$/i
 
 handler.owner = true
 handler.group = true
