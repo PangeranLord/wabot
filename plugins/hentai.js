@@ -8,6 +8,7 @@ await conn.sendFile(m.chat, img, '', '', m)
 }
 handler.help = ['hentai']
 handler.tags = ['anime']
+handler.premium = true
 handler.limit = true
 
 handler.command = /^(hentai)$/i
