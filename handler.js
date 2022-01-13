@@ -31,7 +31,7 @@ module.exports = {
           if (!isNumber(user.exp)) user.exp = 0
           if (!isNumber(user.limit)) user.limit = 10
           if (!isNumber(user.lastclaim)) user.lastclaim = 0
-          if (!('registered' in user)) user.registered = false
+          if (!('registered' in user)) user.registered = true
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
             if (!isNumber(user.age)) user.age = -1
@@ -47,7 +47,7 @@ module.exports = {
           exp: 0,
           limit: 10,
           lastclaim: 0,
-          registered: false,
+          registered: true,
           name: this.getName(m.sender),
           age: -1,
           regTime: -1,
@@ -406,7 +406,7 @@ global.dfail = (type, m, conn) => {
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Larasati.16*'
   }[type]
   if (msg) return m.reply(msg)
 }
