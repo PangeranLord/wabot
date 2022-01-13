@@ -2,7 +2,7 @@ let fs = require('fs')
 let fetch = require('node-fetch')
 global.tum = fs.readFileSync('./src/Ah5.jpeg')
 global.tum2 = fs.readFileSync('./src/emror.jpeg')
-global.thumb = fs.readFileSync('./src/thumb.jpeg')
+global.thumb = fs.readFileSync('./src/IMG_20220112_025857.jpg')
 global.thumb2 = fs.readFileSync('./src/emror.jpeg')
 global.owner = ['6287832147584', '6285719579904'] // Put your number here
 global.mods = ['6287832147584'] // Want some help?
@@ -32,7 +32,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'I hope you\'re fine'
+global.packname = 'ItsmeLaras'
 global.author = 'AbengLORD'
 global.multiplier = 69 // The higher, The harder levelup
 
