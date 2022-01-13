@@ -20,5 +20,7 @@ let animeingfo = `✨️ *Title:* ${title}
 handler.help = ['anime <judul>']
 handler.tags = ['internet']
 handler.command = /^(anime|animeinfo)$/i
+handler.premium = true
+handler.limit = true
 //maapin fatur :<
 module.exports = handler
