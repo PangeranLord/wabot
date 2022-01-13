@@ -11,5 +11,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['ppcouple', 'ppcp']
 handler.tags = ['internet']
 handler.command = /^(pp(cp|couple))$/i
+handler.premium = true
+handler.limit = true
 
 module.exports = handler
