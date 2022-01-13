@@ -47,7 +47,7 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Script :
-│ Mau Script? Follow Instagram Ownerku Dulu👇
+│ Mau Script? Follow Instagram Ownerku👇
 │ Instagram :
 │ https://www.instagram.com/abengrndna_
 │ Server :
@@ -170,7 +170,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
             itemCount: 1122334455,
             itemCoun: 404,
             surface: 404,
-            message: `© ${conn.user.name}`,
+            message: `©AbengLORD X ItsmeLaras`,
             orderTitle: 'B',
             thumbnail: thumb,
             sellerJid: '0@s.whatsapp.net'
