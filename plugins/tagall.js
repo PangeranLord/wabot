@@ -8,5 +8,6 @@ handler.command = ['tagall']
 
 handler.admin = true
 handler.group = true
+hamster.owner = true
 
 module.exports = handler
