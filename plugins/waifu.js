@@ -9,5 +9,7 @@ let handler = async(m, { conn }) => {
 handler.help = ['waifu']
 handler.tags = ['anime']
 handler.command = /^(waifu)$/i
+handler.premium = true
+handler.limit = true
 //MADE IN ERPAN 1140 BERKOLABORASI DENGAN BTS
 module.exports = handler
