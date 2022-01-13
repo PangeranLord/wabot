@@ -5,6 +5,8 @@ let handler = async (m, { conn }) => {
 }
 handler.help = ['husbu']
 handler.tags = ['anime']
+handler.premium = true
+handler.limit = true
 
 handler.command = /^(husbu)$/i
 
