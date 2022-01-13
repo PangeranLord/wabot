@@ -15,7 +15,7 @@ handler.tags = ['nulis']
 handler.command = /^tahta2$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = true
 handler.private = false
 
