@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
   m.reply('Done!')
 }
 handler.help = ['unbanchat']
-handler.tags = ['owner','admin']
+handler.tags = ['owner']
 handler.command = /^unbanchat$/i
 handler.owner,handler.mods,handler.admin = true
 
