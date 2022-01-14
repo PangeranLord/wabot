@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text, participants }) => {
   let users = participants.map(u => u.jid)
-  m.reply('*[T A G - A L L...!\n' + text + '\n' + users.map(v => '@' + v.replace(/@.+/, '')).join`\n`, null, {
+  m.reply('_*[T A G - A L L...!]*_\n' + '\n' + text + '\n' + users.map(v => '@' + v.replace(/@.+/, '')).join`\n`, null, {
     contextInfo: { mentionedJid: users }
   })
 }
