@@ -4,19 +4,11 @@ let handler = async (m, { conn, text, participants }) => {
     contextInfo: { mentionedJid: users }
   })
 }
-handler.help = ['tagall']
+handler.help = ['tagall'].map(v => 'tagall' + v + ' [teks]')
 handler.tags = ['admin']
-handler.command = /^(tagall|\-)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.command = /^(tagall|tagall\-)$/i
 handler.group = true
-handler.private = false
-
 handler.admin = true
-handler.botAdmin = true
 handler.limit = true
-
-handler.fail = null
 
 module.exports = handler
