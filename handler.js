@@ -80,7 +80,7 @@ module.exports = {
           sPromote: '',
           sDemote: '',
           delete: true,
-          antiLink: true,
+          antiLink: false,
         }
       } catch (e) {
         console.error(e)
